@@ -1,0 +1,25 @@
+.popoverContent {
+  width: fit-content; 
+  max-width: min(350px, 90vw); 
+  min-width: 150px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 10px 38px -10px rgba(22, 23, 24, 0.35);
+  border: 1px solid #e0e0e0;
+}
+
+.popoverList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden; 
+}
+
+.popoverChipWrapper {
+  max-width: 100%; 
+  flex-shrink: 1;
+}
